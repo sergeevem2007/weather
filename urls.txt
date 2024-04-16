@@ -1,0 +1,4 @@
+https://www.youtube.com/watch?v=rnbHRXboURk
+https://www.visualcrossing.com/weather/weather-data-services#
+https://github.com/Nakonsta/Cocktails/blob/main/src/components/AppLayout.vue
+https://demo.templatemonster.com/ru/demo/300109.html?_gl=1*5mf65j*_ga*MTEyOTEyMzQ1Ni4xNzEyNjY0NTgy*_ga_FTPYEGT5LY*MTcxMjY2NDU4Mi4xLjEuMTcxMjY2NDYwMy4zOS4wLjA.
