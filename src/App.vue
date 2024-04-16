@@ -4,6 +4,14 @@ import Weather from './components/Weather.vue'
 
 <template>
   <header>
+    <div class="container">
+      <div class="header__wrapper">
+        <a href="/" class="header__logo">
+          <img width="48" height="48" src="https://img.icons8.com/fluency/48/smiling-sun.png" alt="smiling-sun"/>
+          <span>weather forecast</span>
+        </a>
+      </div>
+    </div>
   </header>
 
   <main>
@@ -12,21 +20,20 @@ import Weather from './components/Weather.vue'
 </template>
 
 <style scoped>
-header {
-  line-height: 1.5;
-}
-
-@media (min-width: 1024px) {
-  header {
+  .header__wrapper {
     display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
+    align-items: center;
+    justify-content: center;
+    padding: 24px 0;
   }
-
-  header .wrapper {
+  .header__logo {
     display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
+    align-items: center;
+    font-weight: 900;
+    font-size: 32px;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 1;
+    color: var(--color-link);
   }
-}
 </style>
